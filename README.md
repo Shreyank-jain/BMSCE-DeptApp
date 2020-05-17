@@ -14,7 +14,8 @@ A student friendly app that gives you all the insights of what is happening in t
         *   Attendance status info.
         *   Quiz conduction for AATs.
         *   Semester wise content delivery.
-
+<center>
+<image src="https://github.com/ashishedu98/BMSCE-DeptApp/blob/master/home.jpg?raw=true" width="240px" height="560px"/></center>
 
 feel free to report any bugs
 
