@@ -1,4 +1,4 @@
-# BMCE-DeptApp
+# BMSCE-DeptApp
 
 A student friendly app that gives you all the insights of what is happening in the CS Department of BMSCE.
 
