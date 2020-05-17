@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bluecoral"
+    tools:context="com.halo.bmsce.PostFragment">
+
+
+
+    <!--    <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/all_posts"
+            android:layout_weight = "8.5"
+            android:layout_height="0dp"
+            android:layout_width="match_parent" />-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/ll_send_message"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_posts" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_send_message"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+
+        <EditText
+            android:id="@+id/post_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/btn_bg"
+            android:backgroundTint="@color/gradStart1"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="end|bottom"
+            android:minHeight="40dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:shadowColor="@color/darkgrad"
+            android:shadowDx="1.5"
+            android:shadowDy="1.6"
+            android:shadowRadius="2"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/post_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="center"
+            app:backgroundTint="@color/white"
+            android:src="@drawable/ic_send"
+            app:elevation="6dp"
+            app:fabSize="normal"
+            app:maxImageSize="24dp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

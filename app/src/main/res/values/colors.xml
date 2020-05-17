@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#012131</color>
+    <color name="colorPrimaryDark">#151515</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="colorPrimaryText">#016FBB</color>
+    <color name="colorBackground">#ECECEC</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="gradStart1">#016FBB</color>
+    <color name="gradStop1">#0094F8</color>
+
+    <color name="gradStart">#12486F</color>
+    <color name="gradStop">#45A9E7</color>
+
+    <color name="darkgrad">#012131</color>
+    <color name="titlecolor">#062835</color>
+
+    <color name="icon_bg">#174F63</color>
+    <color name="coral">#D4DEF1</color>
+    <color name="btn_bg">#45A9E7</color>
+    <color name="bluecoral">#98C6FC</color>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDarkSemiTransparent">#C6000000</color>
+    <color name="colorSemiDark">#90000000</color>
+</resources>

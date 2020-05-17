@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BMSCE</string>
+    <string name="workshops">Workshops</string>
+    <string name="contests">Contests</string>
+    <string name="Class">Class</string>
+    <string name="profile">Profile</string>
+    <string name="remainders">Remainders</string>
+    <string name="logout">Logout</string>
+    <string name="today">Today</string>
+    <string name="exercises">Exercises</string>
+    <string name="settings">Settings</string>
+    <string name="sectiona">sectiona</string>
+    <string name="sectionb">sectionb</string>
+    <string name="Home">Home</string>
+    <string name="dummy_text">Lorem Ipsum is simply a  dummy text for printing ,Lorem Ipsum is simply a  dummy text.</string>
+    <string name="workshop1">Workshop1</string>
+    <string name="workshop2">Workshop2</string>
+    <string name="contest2">Contest2</string>
+    <string name="Contest1">Contest1</string>
+    <string name="contest3">Contest3</string>
+    <string name="contest4">Contest4</string>
+    <string-array name="sem">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="sec">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+
+    <string-array name="extensions">
+        <item>Select Extension</item>
+        <item>.pdf</item>
+        <item>images</item>
+        <item>.docx</item>
+        <item>.ppt</item>
+        <item>.doc</item>
+        <item>.zip</item>
+        <item>.txt</item>
+        <item>.xls</item>
+        <item>.xlsx</item>
+    </string-array>
+
+</resources>

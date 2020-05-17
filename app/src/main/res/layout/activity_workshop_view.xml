@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gradStart"
+    tools:context="com.halo.bmsce.Workshop_View">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/title_workshop"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/darkgrad"
+            app:layout_constraintTop_toTopOf="parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/title_wk"
+                    android:layout_height="wrap_content"
+                    android:text="Geeks Workshop"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Date to Enroll"
+                    android:id="@+id/last_title"
+                    android:textColor="@color/coral"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/title_wk"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/last_title"
+                    android:textSize="20sp"
+                    android:id="@+id/last"
+                    android:textColor="@color/coral"
+                    android:textStyle="bold"
+                    android:text="11-02-2020"
+                    android:layout_marginTop="5dp"/>
+
+
+                <Button
+                    android:id="@+id/reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_wk"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignLeft="@id/remainder_btn"
+                    android:layout_marginTop="3dp"
+                    android:backgroundTint="@color/btn_bg"
+                    android:text="Register"
+                    android:textColor="@color/darkgrad"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/reg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/remainder_btn"
+                    android:textColor="@color/darkgrad"
+                    android:text="Set Reminder"
+                    android:layout_marginRight="10dp"
+                    app:cornerRadius="20dp"
+                    android:backgroundTint="@color/btn_bg"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/details_wk"
+            android:layout_below="@id/title_workshop">
+
+
+
+            <!--<ScrollView!-->
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/transparent"
+                android:text="Workshop Date"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/coral"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/transparent"
+                    android:text="2121"
+                    android:id="@+id/workshop_date"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/detail_description"
+                    android:layout_below="@+id/workshop_date"
+                    android:text="sample text"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:background="@drawable/rounded_corners"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/all_links"
+                        android:layout_margin="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/detail_description"
+                        android:layout_marginTop="10dp">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+        </RelativeLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_contest_material"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+            app:fabSize="normal"
+            app:backgroundTint="@color/bluecoral"
+            app:elevation="6dp"
+            android:src="@drawable/ic_add"
+            android:scaleType="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:maxImageSize="64dp"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

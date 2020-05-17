@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:background="@color/transparent"
+    android:fontFamily="sans-serif-medium"
+    android:letterSpacing="0.1"
+    android:paddingLeft="40dp"
+    android:textAllCaps="true"
+    android:bottomLeftRadius="20dp"
+    android:bottomRightRadius="20dp"
+    android:topLeftRadius="0dp"
+    android:topRightRadius="20dp"
+    android:textColor="@color/white"
+    android:textSize="15sp" />

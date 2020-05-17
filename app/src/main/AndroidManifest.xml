@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.halo.loginui2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.halo.bmsce.Add_Workshop_Material"></activity>
+        <activity android:name="com.halo.bmsce.Add_Workshop_Activity" />
+        <activity android:name="com.halo.bmsce.Add_Contest_Material" />
+        <activity android:name="com.halo.bmsce.Loading" />
+        <activity android:name="com.halo.bmsce.Reset_Password" />
+        <activity android:name="com.halo.bmsce.Add_Contest" />
+        <activity android:name="com.halo.bmsce.Add_Workshop" />
+        <activity android:name="com.halo.bmsce.Join_Class" />
+        <activity android:name="com.halo.bmsce.Activity_FileUpload" />
+        <activity android:name="com.halo.bmsce.Create_Class" />
+        <activity android:name="com.halo.bmsce.Activity_Events" />
+        <activity android:name="com.halo.bmsce.Class_View" />
+        <activity android:name="com.halo.bmsce.activity_inside_class" />
+        <activity android:name="com.halo.bmsce.Activity_Classes" />
+        <activity android:name="com.halo.bmsce.Contest_View" />
+        <activity android:name="com.halo.bmsce.Workshop_View" />
+        <activity android:name="com.halo.bmsce.Activity_Profile" />
+        <activity android:name="com.halo.bmsce.Activity_Contest" />
+        <activity android:name="com.halo.bmsce.Activity_Workshop" />
+        <activity
+            android:name="com.halo.bmsce.Activity_Homepage"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.halo.bmsce.Activity_Register"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.halo.bmsce.Activity_Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
